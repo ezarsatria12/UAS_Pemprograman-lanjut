@@ -1,0 +1,21 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="auth.master.cs" Inherits="UAS_Pemprogramanlanjut_2203040104.page.auth.auth" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title></title>
+    <link href="../../css/output.css" rel="stylesheet" type="text/css" />
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <div class="w-screen h-screen flex flex-row" style="background: linear-gradient(0deg, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../../Image/green-leaf-texture-leaf-texture-background.jpg); background-size: cover;">
+        <div class="w-1/2 px-32 flex flex-col justify-center">
+            <h1 class="font-primary font-medium text-6xl text-white" style="color: white; line-height: 160%;">Don't just talk, let's make our Earth greener</h1>
+        </div>
+        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+        </asp:ContentPlaceHolder>
+    </div>
+</body>
+</html>
